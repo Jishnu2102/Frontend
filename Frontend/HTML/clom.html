@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Showcase</title>
+  
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to Our Product Showcase</h1>
+    <p>Explore our latest collection and leave your feedback!</p>
+  </header>
+
+  
+
+  <!-- Product Showcase Section -->
+  <section id="products">
+    <h2>Our Product Collection</h2>
+    
+    <!-- Data Table -->
+    <table>
+      <caption>Product List</caption>
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>Category</th>
+          <th>Availability</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Product A</td>
+          <td>$25</td>
+          <td>Electronics</td>
+          <td>In Stock</td>
+        </tr>
+        <tr>
+          <td>Product B</td>
+          <td>$40</td>
+          <td>Home Decor</td>
+          <td>Out of Stock</td>
+        </tr>
+        <tr>
+          <td>Product C</td>
+          <td>$15</td>
+          <td>Accessories</td>
+          <td>In Stock</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Product Details Section -->
+  <section id="details">
+    <h2>Product Details</h2>
+
+    <!-- Data List for Product Information -->
+    <dl>
+      <dt>Product Name:</dt>
+      <dd>Product A</dd>
+      
+      <dt>Description:</dt>
+      <dd>A high-quality electronic gadget designed for modern life.</dd>
+      
+      <dt>Price:</dt>
+      <dd>$25</dd>
+
+      <dt>Features:</dt>
+      <dd>Lightweight, durable, multi-functional</dd>
+    </dl>
+
+    <!-- Embedded Media -->
+    <div class="product-gallery">
+      <h3>Product Gallery</h3>
+      <img src="product-a.jpg" alt="Product A Image">
+      <iframe src="https://www.youtube.com/embed/samplevideo" title="Product A Video" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Feedback Section -->
+  <section id="feedback">
+    <h2>We Value Your Feedback</h2>
+
+    <!-- User Feedback Form -->
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <br>
+
+      <label for="rating">Rating (1-10):</label>
+      <select id="rating" name="rating">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      <br><br>
+
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" rows="4" required></textarea>
+      <br><br>
+
+      <button type="submit">Submit </button>
+    </form>
+  </section>
+
+ 
+</body>
+</html>
